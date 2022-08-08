@@ -1,12 +1,11 @@
-import Link from "next/link";
 import Head from "next/head";
-
+import Link from 'next/link';
 
 export function MainLayout({ children, title='Next' }) {
     return(
         <>
             <Head>
-            <title>{title} | Next</title>
+            <title>{title}|Next</title>
             </Head>
         <nav>
             <h1>Navigation</h1>
